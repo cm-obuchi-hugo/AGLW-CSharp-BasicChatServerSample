@@ -21,11 +21,6 @@ class ChatServer
     // A instance's status flag of this class 
     public bool IsAlive { get; private set; } = false;
 
-    public ChatServer()
-    {
-
-    }
-
     //This is an example of a simple integration with GameLift server SDK that will make game server processes go active on GameLift!
     public void Start()
     {
