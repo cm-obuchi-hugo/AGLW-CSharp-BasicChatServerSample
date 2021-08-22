@@ -16,8 +16,6 @@ class ChatServer
     private TcpListener listener = null;
     private Thread listenerThread = null;
 
-    private Dictionary<int, string> playerSessions;
-
     // A instance's status flag of this class 
     public bool IsAlive { get; private set; } = false;
 
